@@ -1,0 +1,32 @@
+.home{
+    height: 20rem;
+    width: 40rem;
+    border: 1px solid red;
+    padding: .3rem .8rem;
+}
+
+.heading-container{
+    text-align: center;
+}
+
+.input-container{
+    width: 100%;
+}
+
+.input-container input{
+    width: 89%;
+    padding: .3rem .87rem;
+    font-size: large;
+    outline: none;
+}
+
+.input-container button{
+    padding: .3rem .87rem;
+    font-size: large;
+    width: 4.2rem;
+}
+
+.password-length-container{
+    display: flex;
+    justify-content: space-between;
+}

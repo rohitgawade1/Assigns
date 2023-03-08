@@ -1,0 +1,41 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    margin-top:2rem;
+    
+}
+
+.toggle-button{
+    padding: .5rem 1rem;
+    background-color: #b34a6d;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.content-heading{
+    color: #b34a6d;
+}
+
+.Comp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    font-size: small;
+    /* border: 1px solid red; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.sub-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+p{
+    margin-left: 1rem;
+}
