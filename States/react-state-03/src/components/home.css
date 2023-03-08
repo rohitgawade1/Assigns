@@ -1,32 +1,70 @@
-.home{
-    height: 20rem;
-    width: 40rem;
-    border: 1px solid red;
-    padding: .3rem .8rem;
+.home {
+  height: fit-content;
+  width: fit-content;
+  /* border: 1px solid red; */
+  box-shadow: 2px 2px 7px 2px rgba(128, 128, 128, 0.605);
+  padding: 0.3rem 0.8rem;
 }
 
-.heading-container{
-    text-align: center;
+.heading-container {
+  text-align: center;
 }
 
-.input-container{
-    width: 100%;
+.input-container {
+  width: 100%;
 }
 
-.input-container input{
-    width: 89%;
-    padding: .3rem .87rem;
-    font-size: large;
-    outline: none;
+.input-container {
+  width: 100%;
+  font-size: large;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
 }
 
-.input-container button{
-    padding: .3rem .87rem;
-    font-size: large;
-    width: 4.2rem;
+
+.input-container button {
+  padding: 0.3rem 0.87rem;
+  font-size: large;
+  cursor: pointer;
+  width: fit-content;
+  border: none;
+  border-left: 2px;
+
 }
 
-.password-length-container{
+.password-length-container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 3rem;
+  margin: 1rem 0;
+  font-size: large;
+}
+
+.password-length-container input {
+  height: 2rem;
+  padding: 0 1rem;
+  width: 5rem;
+  outline: none;
+}
+
+.pass-button {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+width: 100%;
+cursor: pointer;
+font-size: large;
+}
+
+.uppercase-container,
+.lowercase-container,
+.number-container,
+.symbol-container{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    margin: .3rem 0;
+    font-size: large;
 }
