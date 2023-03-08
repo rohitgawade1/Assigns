@@ -9,7 +9,7 @@ const Home = () => {
   const handleCopy = () => {
     navigator.clipboard.writeText(pass);
     setCopied(true)
-    setPass('')
+    // setPass('')
   }
   return (
     <div className="home">
